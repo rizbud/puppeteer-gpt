@@ -1,0 +1,26 @@
+{
+  "name": "puppeteer-gpt",
+  "version": "1.0.0",
+  "description": "ChatGPT with Puppeteer. No API Key needed.",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "puppeteer",
+    "chatgpt",
+    "openai"
+  ],
+  "author": "rizbud",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/filesystem": "^0.0.36",
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "puppeteer": "^22.6.0",
+    "puppeteer-extra": "^3.3.6"
+  }
+}
