@@ -50,6 +50,7 @@ const openChatGPT = async (isChat?: boolean) => {
   });
 
   page.setViewport({ width, height });
+  page.setUserAgent('Mozilla/5.0 (Windows NT 5.1; rv:5.0) Gecko/20100101 Firefox/5.0'); // Added to by pass the bot detection by cloudflare
 
   await page.goto("https://chat.openai.com/", { waitUntil: "load" });
 
